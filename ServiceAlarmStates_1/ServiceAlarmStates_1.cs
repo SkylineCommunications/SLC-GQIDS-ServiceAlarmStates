@@ -10,7 +10,7 @@ namespace ServiceAlarmStates_1
     public sealed class ServiceAlarmStates : IGQIDataSource, IGQIOnInit, IGQIInputArguments, IGQIUpdateable
     {
         private readonly GQIStringColumn _nameColumn = new GQIStringColumn("Name");
-        private readonly GQIStringColumn _stateColumn = new GQIStringColumn("State");
+        private readonly GQIStringColumn _stateColumn = new GQIStringColumn("Alarm state");
 
         private readonly GQIIntArgument _viewIdArgument = new GQIIntArgument("View ID");
 
